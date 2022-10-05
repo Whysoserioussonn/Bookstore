@@ -1,7 +1,15 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const router = require("./routes/book-routes")
+
 
 const app = express();
+
+//Middlewares
+app.use(express.json()); // specify it before your routes, sequence matters
+app.use("/books", router); // localhost:5000/books
+
+
 
 // added for port
 require('dotenv').config()
@@ -9,10 +17,10 @@ require('dotenv').config()
 const port = process.env.PORT
 
 
-// Middlewares
-app.use("/", (req, res, next) => {
-    res.send("this is  app")
-})
+// used in the beginning to test mongo to website 
+// app.use("/", (req, res, next) => {
+//     res.send("this is a working app")
+// })
 
 mongoose.connect(process.env.MONGO_DB);
 mongoose.connection.once('open', () =>
