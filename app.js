@@ -8,6 +8,12 @@ require('dotenv').config()
 // Identify our port
 const port = process.env.PORT
 
+
+// Middlewares
+app.use("/", (req, res, next) => {
+    res.send("this is  app")
+})
+
 mongoose.connect(process.env.MONGO_DB);
 mongoose.connection.once('open', () =>
 {
