@@ -1,0 +1,10 @@
+body
+{
+    background-color: black;
+    color: yellow;
+    font-style: italic;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
