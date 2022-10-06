@@ -10,11 +10,11 @@ User is able to Create, Read, Update, and Delete items from bookstore website.
 
 ## Technologies used
 
-*MongoDB- document database(back-end)
-*Express(.js) — Node.js web framework running inside Node.js server(server tier)
-*React(.js) — a client-side JavaScript framework(front-end)
-*Node(.js) — the premier JavaScript web server(server tier)
-*Postman — an HTTP client that tests HTTP requests, utilizing a graphical user interface, through which we *obtain different types of responses that need to be subsequently validated
+* MongoDB- document database(back-end)
+* Express(.js) — Node.js web framework running inside Node.js server(server tier)
+* React(.js) — a client-side JavaScript framework(front-end)
+* Node(.js) — the premier JavaScript web server(server tier)
+* Postman — an HTTP client that tests HTTP requests, utilizing a graphical user interface, through which we  obtain different types of responses that need to be subsequently validated
 
 
 ## Challenges
@@ -38,17 +38,17 @@ User is able to Create, Read, Update, and Delete items from bookstore website.
 ## Installation
 * Need to set up accounts for MONGODB for database and POSTMAN for trial and error application
 * Packets that needed to be installed into the project folder:
-     *dotenv -used to load environment variables from a . env file into the running process.
-     *express - used to build a single page, multipage, and hybrid web application
-     *express-react-views - used as a replacement for existing server-side view solutions, like jade, ejs, or handlebars.
-     *mongoose- used as a library for MongoDB
-     *react - used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.
-     *react-dom - package that provides DOM specific methods that can be used at the top level of a web app to enable an efficient way of managing DOM elements of the web page.
-     *axios -an HTTP client library. It makes sending asynchronous HTTP requests to REST endpoints like your own backend Node.js server, helps you perform CRUD operations. 
-     *cors -  refers to the method that allows you to make requests to the server deployed at a different domain. As a reference, if the frontend and backend are at two different domains, we need CORS there.
-     *react router dom
-     *mui/icons-material - library of SVG icons used to for icons on header tab
-     *mui/material - comprehensive library of components that features our implementation of Google's Material Design system
+     * dotenv -used to load environment variables from a . env file into the running process.
+     * express - used to build a single page, multipage, and hybrid web application
+     * express-react-views - used as a replacement for existing server-side view solutions, like jade, ejs, or handlebars.
+     * mongoose- used as a library for MongoDB
+     * react - used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.
+     * react-dom - package that provides DOM specific methods that can be used at the top level of a web app to enable an efficient way of managing DOM elements of the web page.
+     * axios -an HTTP client library. It makes sending asynchronous HTTP requests to REST endpoints like your own backend Node.js server, helps you perform CRUD operations. 
+     * cors -  refers to the method that allows you to make requests to the server deployed at a different domain. As a reference, if the frontend and backend are at two different domains, we need CORS there.
+     * react router dom
+     * mui/icons-material - library of SVG icons used to for icons on header tab
+     * mui/material - comprehensive library of components that features our implementation of Google's Material Design system
 
 
 ## License
