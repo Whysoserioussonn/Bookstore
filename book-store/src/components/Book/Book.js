@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from "@mui/material";
 import "./Book.css";
-
+import { Link } from "react-router-dom";
 const Book = (props) => {
     const { _id, name, author, description, price, image } = props.book;
     return (
@@ -11,7 +11,7 @@ const Book = (props) => {
           <h3>{name}</h3>
           <p>{description}</p>
           <h3>Price$ {price}</h3>
-          <Button sx={{ mt: "auto" }}>
+          <Button LinkComponent={Link} to={`/books/${_id}`} sx={{ mt: "auto" }}>
             Update
           </Button>
           <Button sx={{ mt: "auto" }}>
