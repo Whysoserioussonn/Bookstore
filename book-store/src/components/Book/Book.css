@@ -25,6 +25,9 @@ li {
   flex-direction: column;
   justify-content: center;
   background-color: yellow;
+  border-style: solid;
+  border-color: aqua;
+  border-width: thick;
   /* align-items: flex-start;
   align-content: flex-start; */
 }

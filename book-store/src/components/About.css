@@ -8,13 +8,13 @@
    
 }
 */
-body.some-page-reference{
+ body.some-page-reference{
     width: 100%;
     height: 100%;
-    background: #000;
+    background: red;
     overflow: hidden;
-  }
-  
+  } 
+
   .fade {
     position: relative;
     width: 100%;
@@ -75,12 +75,17 @@ body.some-page-reference{
 .form {
 background-color: white;
 height: 100vh;
+width: 100vh;
+
+
+
 }   
 
 .form2
 {
     background-color: white;
     height: 100vh;
+    width: 100vh;
     
 }
 
