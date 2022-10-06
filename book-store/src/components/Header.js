@@ -8,12 +8,13 @@ const Header = () => {
     const [value, setValue] = useState();
   return (
     <div>
-       <AppBar sx={{backgroundColor: "purple"}}position='sticky'>
+       <AppBar sx={{backgroundColor: "purple"}}position='sticky'> {/* sx{} allows us to add css styling directly on the tabs, {ml:auto} shifts tabs to the right*/}
         <Toolbar>
+        <NavLink to="/" style={{ color: "white" }}>   
         <Typography><MenuBookIcon/></Typography>
-
+        </NavLink>
         <Tabs
-                sx={{ml: "auto"}}       // sx{} allows us to add css styling directly on the tabs, {ml:auto} shifts tabs to the right
+                sx={{ml: "auto"}}       
          textColor="inherit"
          indicatorColor="secondary"
          value={value}
