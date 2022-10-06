@@ -1,14 +1,7 @@
-import {
-    Box,
-    Button,
-    Checkbox,
-    FormControlLabel,
-    FormLabel,
-    TextField,
-  } from "@mui/material";
-  import axios from "axios";
-  import React, { useEffect, useState } from "react";
-  import { useNavigate, useParams } from "react-router-dom";
+import { Box,Button,Checkbox,FormControlLabel,FormLabel,TextField, } from "@mui/material";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
   
   const BookDetail = () => {
     const [inputs, setInputs] = useState();
