@@ -44,7 +44,7 @@ import { useNavigate, useParams } from "react-router-dom";
     return (
       <div>
         {inputs && (
-          <form onSubmit={handleSubmit}>
+          <form className="form2" onSubmit={handleSubmit}>
             <Box
               display="flex"
               flexDirection="column"

@@ -70,8 +70,17 @@ body {
 .Henry {
     font-size: 25px;
     color: yellow;
-    
-    
-    
+}    
 
+.form {
+background-color: white;
+height: 100vh;
+}   
+
+.form2
+{
+    background-color: white;
+    height: 100vh;
+    
 }
+

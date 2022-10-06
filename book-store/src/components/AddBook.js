@@ -43,7 +43,7 @@ import { useNavigate } from "react-router-dom";
     };
   
     return (
-      <form onSubmit={handleSubmit}>
+      <form className="form" onSubmit={handleSubmit}>
         <Box
           display="flex"
           flexDirection="column"
