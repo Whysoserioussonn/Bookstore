@@ -3,6 +3,7 @@
  text-align: center;   
  color: yellow;
  background-color: black;
+ height: 100vh;
     
    
 }
@@ -10,7 +11,7 @@
     font-size: 25px;
     color: yellow;
     
-    display: flex;
+    
     
 
 }

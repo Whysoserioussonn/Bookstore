@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
       description: "",
       price: "",
       author: "",
-  
+      available: "",
       image: "",
     });
     const [checked, setChecked] = useState(false);
