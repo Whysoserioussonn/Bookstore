@@ -32,12 +32,18 @@ li {
   height: 50%;
 }
 .card article {
+  margin: 0;
   padding: 5px;
 }
 .card h3 {
+  margin: 0;
   padding: 4px;
 }
 
 .card p {
+  margin: 0;
   padding: 3x;
+}
+.card article {
+  padding: 5px;
 }

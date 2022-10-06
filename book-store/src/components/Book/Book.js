@@ -11,10 +11,10 @@ const Book = (props) => {
           <h3>{name}</h3>
           <p>{description}</p>
           <h3>Price$ {price}</h3>
-          <Button >
+          <Button sx={{ mt: "auto" }}>
             Update
           </Button>
-          <Button >
+          <Button sx={{ mt: "auto" }}>
             Delete
           </Button>
         </div>
