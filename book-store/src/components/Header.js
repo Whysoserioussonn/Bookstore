@@ -10,9 +10,10 @@ const Header = () => {
     <div>
        <AppBar sx={{backgroundColor: "purple"}}position='sticky'> {/* sx{} allows us to add css styling directly on the tabs, {ml:auto} shifts tabs to the right*/}
         <Toolbar>
-        <NavLink to="/" style={{ color: "white" }}>   
+        <NavLink to="/" style={{ color: "GreenYellow" }}>   
         <Typography><MenuBookIcon/></Typography>
         </NavLink>
+        <div className='Henry'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HENRY'S BOOKSTORE</div>
         <Tabs
                 sx={{ml: "auto"}}       
          textColor="inherit"
